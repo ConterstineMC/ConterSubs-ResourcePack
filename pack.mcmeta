@@ -1,0 +1,18 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": [
+            {
+                "text": "ConterSubsMC TexturePack",
+                "color": "light_purple"
+            },
+            {
+                "text": " - "
+            },
+            {
+                "text": "Creado por el Staff y Google",
+                "color": "green"
+            }
+        ]
+    }
+}

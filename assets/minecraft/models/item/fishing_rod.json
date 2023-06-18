@@ -1,0 +1,21 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1,
+                "custom_model_data": 1652523
+            },
+            "model": "item/custom/rod_of_punga_cast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1652523
+            },
+            "model": "item/custom/rod_of_punga"
+        }
+    ]
+}
