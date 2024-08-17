@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/netherite_shovel"
+    },
+
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/custom/shovel_3x3"
+        }
+	  ]
+}
