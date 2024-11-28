@@ -1,6 +1,10 @@
 {
     "pack": {
         "pack_format": 34,
+        "supported_formats": [
+            34,
+            42
+        ]
         "description": [
             {
                 "text": "ConterSubsMC TexturePack",
