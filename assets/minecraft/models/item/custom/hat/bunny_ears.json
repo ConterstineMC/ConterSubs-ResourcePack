@@ -1,8 +1,8 @@
 {
 	"__comment": "By Meri the LapisDemon | youtube.com/LapisDemon",
 	"textures": {
-		"particle": "item/custom/easter-bunny-ears",
-		"texture": "item/custom/easter-bunny-ears"
+		"particle": "item/custom/hat/easter-bunny-ears",
+		"texture": "item/custom/hat/easter-bunny-ears"
 	},
 	"elements": [ 	 
 		{
