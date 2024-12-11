@@ -1,86 +1,86 @@
 {
 	"entity.goat.screaming.scream" : {
 		"sounds":[
-			"custom/goat/scream1",
-			"custom/goat/scream2"
+			"contercraft:goat/scream1",
+			"contercraft:goat/scream2"
 		]
 	},
 	"entity.conter.goat.scream" : {
 		"sounds":[
-			"custom/conter/goat1",
-			"custom/conter/goat2"
+			"contercraft:conter/goat1",
+			"contercraft:conter/goat2"
 		]
 	},
 	"entity.conter.scare.loud" : {
 		"sounds":[
-			"custom/conter/scare1",
-			"custom/conter/scare5",
-			"custom/conter/scare7"
+			"contercraft:conter/scare1",
+			"contercraft:conter/scare5",
+			"contercraft:conter/scare7"
 		]
 	},
 	"entity.conter.scare.medium" : {
 		"sounds":[
-			"custom/conter/scare3",
-			"custom/conter/scare4"
+			"contercraft:conter/scare3",
+			"contercraft:conter/scare4"
 		]
 	},
 	"entity.conter.scare.quiet" : {
 		"sounds":[
-			"custom/conter/scare2",
-			"custom/conter/scare6"
+			"contercraft:conter/scare2",
+			"contercraft:conter/scare6"
 		]
 	},
 	"entity.conter.surprise.full" : {
 		"sounds":[
-			"custom/conter/surprise1",
-			"custom/conter/surprise2",
-			"custom/conter/surprise3",
-			"custom/conter/surprise4"
+			"contercraft:conter/surprise1",
+			"contercraft:conter/surprise2",
+			"contercraft:conter/surprise3",
+			"contercraft:conter/surprise4"
 		]
 	},
 	"entity.conter.surprise.first" : {
 		"sounds":[
-			"custom/conter/surprise1"
+			"contercraft:conter/surprise1"
 		]
 	},
 	"entity.conter.surprise.second" : {
 		"sounds":[
-			"custom/conter/surprise2"
+			"contercraft:conter/surprise2"
 		]
 	},
 	"entity.conter.surprise.third" : {
 		"sounds":[
-			"custom/conter/surprise3"
+			"contercraft:conter/surprise3"
 		]
 	},
 	"entity.conter.surprise.forth" : {
 		"sounds":[
-			"custom/conter/surprise4"
+			"contercraft:conter/surprise4"
 		]
 	},
 	"entity.conter.no.full" : {
 		"sounds":[
-			"custom/conter/no1",
-			"custom/conter/no2"
+			"contercraft:conter/no1",
+			"contercraft:conter/no2"
 		]
 	},
 	"entity.conter.laugh.full" : {
 		"sounds":[
-			"custom/conter/laugh1",
-			"custom/conter/laugh2",
-			"custom/conter/laugh3",
-			"custom/conter/laugh4",
-			"custom/conter/laugh5"
+			"contercraft:conter/laugh1",
+			"contercraft:conter/laugh2",
+			"contercraft:conter/laugh3",
+			"contercraft:conter/laugh4",
+			"contercraft:conter/laugh5"
 		]
 	},
 	"entity.conter.laugh.loud" : {
 		"sounds":[
-			"custom/conter/laugh4"
+			"contercraft:conter/laugh4"
 		]
 	},
 	"music.effects.event" : {
 		"sounds":[
-			"custom/effects/event"
+			"contercraft:effects/event"
 		]
 	}
 }

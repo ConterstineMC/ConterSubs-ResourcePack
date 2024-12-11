@@ -1,0 +1,6 @@
+{
+  "parent": "item/fishing_rod",
+  "textures": {
+    "layer0": "contercraft:item/rod_of_punga_cast"
+  }
+}

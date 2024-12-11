@@ -1,6 +1,0 @@
-{
-  "parent": "item/fishing_rod",
-  "textures": {
-    "layer0": "item/custom/rod_of_punga_cast"
-  }
-}
