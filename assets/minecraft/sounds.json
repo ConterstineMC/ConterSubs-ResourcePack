@@ -1,86 +1,8 @@
 {
-	"entity.goat.screaming.scream" : {
-		"sounds":[
+	"entity.goat.screaming.scream": {
+		"sounds": [
 			"contercraft:goat/scream1",
 			"contercraft:goat/scream2"
-		]
-	},
-	"entity.conter.goat.scream" : {
-		"sounds":[
-			"contercraft:conter/goat1",
-			"contercraft:conter/goat2"
-		]
-	},
-	"entity.conter.scare.loud" : {
-		"sounds":[
-			"contercraft:conter/scare1",
-			"contercraft:conter/scare5",
-			"contercraft:conter/scare7"
-		]
-	},
-	"entity.conter.scare.medium" : {
-		"sounds":[
-			"contercraft:conter/scare3",
-			"contercraft:conter/scare4"
-		]
-	},
-	"entity.conter.scare.quiet" : {
-		"sounds":[
-			"contercraft:conter/scare2",
-			"contercraft:conter/scare6"
-		]
-	},
-	"entity.conter.surprise.full" : {
-		"sounds":[
-			"contercraft:conter/surprise1",
-			"contercraft:conter/surprise2",
-			"contercraft:conter/surprise3",
-			"contercraft:conter/surprise4"
-		]
-	},
-	"entity.conter.surprise.first" : {
-		"sounds":[
-			"contercraft:conter/surprise1"
-		]
-	},
-	"entity.conter.surprise.second" : {
-		"sounds":[
-			"contercraft:conter/surprise2"
-		]
-	},
-	"entity.conter.surprise.third" : {
-		"sounds":[
-			"contercraft:conter/surprise3"
-		]
-	},
-	"entity.conter.surprise.forth" : {
-		"sounds":[
-			"contercraft:conter/surprise4"
-		]
-	},
-	"entity.conter.no.full" : {
-		"sounds":[
-			"contercraft:conter/no1",
-			"contercraft:conter/no2"
-		]
-	},
-	"entity.conter.laugh.full" : {
-		"sounds":[
-			"contercraft:conter/laugh1",
-			"contercraft:conter/laugh2",
-			"contercraft:conter/laugh3",
-			"contercraft:conter/laugh4",
-			"contercraft:conter/laugh5"
-		]
-	},
-	"entity.conter.laugh.loud" : {
-		"sounds":[
-			"contercraft:conter/laugh4"
-		]
-	},
-	"music.effects.event" : {
-		"sounds":[
-			"contercraft:effects/event"
 		]
 	}
 }
