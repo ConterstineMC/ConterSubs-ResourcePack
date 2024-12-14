@@ -6,27 +6,26 @@
         "2": "minecraft:block/red_concrete",
         "3": "minecraft:block/red_concrete",
         "5": "minecraft:block/piston_inner",
-        "arrow": "minecraft:entity/projectiles/arrow",
         "6": "minecraft:block/white_wool",
         "7": "minecraft:block/smooth_stone_slab_side",
         "8": "minecraft:block/smooth_stone"
     },
     "display": {
-        "gui": {
+        "thirdperson_righthand": {
             "rotation": [
-                52,
-                90,
-                0
-            ],
-            "translation": [
-                0.75,
+                0,
                 0,
                 0
             ],
+            "translation": [
+                0,
+                1.25,
+                -1.5
+            ],
             "scale": [
-                0.9,
-                0.9,
-                0.9
+                1.1,
+                1.1,
+                1.1
             ]
         },
         "ground": {
@@ -63,23 +62,6 @@
                 1.5
             ]
         },
-        "head": {
-            "rotation": [
-                0,
-                180,
-                0
-            ],
-            "translation": [
-                0,
-                0,
-                0
-            ],
-            "scale": [
-                1,
-                1,
-                1
-            ]
-        },
         "firstperson_righthand": {
             "rotation": [
                 356,
@@ -87,7 +69,7 @@
                 4
             ],
             "translation": [
-                5,
+                -1.25,
                 2,
                 -1.75
             ],
@@ -97,24 +79,59 @@
                 0.90
             ]
         },
-        "thirdperson_righthand": {
+        "gui": {
             "rotation": [
-                0,
-                0,
+                52,
+                90,
                 0
             ],
             "translation": [
+                0.75,
                 0,
-                1.25,
-                -1.5
+                0
             ],
             "scale": [
-                1.1,
-                1.1,
-                1.1
+                0.9,
+                0.9,
+                0.9
             ]
         }
     },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "contercraft:item/admin/crossbow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.58
+            },
+            "model": "contercraft:item/admin/crossbow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "contercraft:item/admin/crossbow_pulling_2"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "contercraft:item/admin/crossbow_arrow"
+        },
+        {
+            "predicate": {
+                "charged": 1,
+                "firework": 1
+            },
+            "model": "contercraft:item/admin/crossbow_firework"
+        }
+    ],
     "elements": [
         {
             "name": "Barrel?",
@@ -1127,19 +1144,10 @@
                 2.8
             ],
             "to": [
-                10.5,
+                8.5,
                 8.2,
                 2.9
             ],
-            "rotation": {
-                "origin": [
-                    1.0,
-                    8.0,
-                    2.8
-                ],
-                "axis": "y",
-                "angle": -45.0
-            },
             "faces": {
                 "up": {
                     "texture": "#6",
@@ -1296,7 +1304,7 @@
         {
             "name": "BowStringRight",
             "from": [
-                5.5,
+                7.5,
                 8.2,
                 2.8
             ],
@@ -1305,15 +1313,6 @@
                 8.2,
                 2.9
             ],
-            "rotation": {
-                "origin": [
-                    15.0,
-                    8.0,
-                    2.8
-                ],
-                "axis": "y",
-                "angle": 45.0
-            },
             "faces": {
                 "up": {
                     "texture": "#6",
@@ -2521,166 +2520,6 @@
                         15.8,
                         15.5
                     ]
-                }
-            }
-        },
-        {
-            "name": "ArrowV",
-            "from": [
-                8,
-                7.7,
-                2
-            ],
-            "to": [
-                8,
-                9.7,
-                9
-            ],
-            "faces": {
-                "east": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ]
-                },
-                "west": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 180
-                }
-            }
-        },
-        {
-            "name": "ArrowH",
-            "from": [
-                7,
-                8.7,
-                2
-            ],
-            "to": [
-                9,
-                8.7,
-                9
-            ],
-            "faces": {
-                "east": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ]
-                },
-                "west": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 180
-                },
-                "up": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 270
-                },
-                "down": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 90
-                }
-            }
-        },
-        {
-            "name": "ArrowH",
-            "from": [
-                7,
-                7.7,
-                8.5
-            ],
-            "to": [
-                9,
-                9.7,
-                8.5
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#arrow",
-                    "uv": [
-                        2.5,
-                        2.5,
-                        0,
-                        5
-                    ]
-                },
-                "east": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ]
-                },
-                "south": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        2.5,
-                        2.5,
-                        5
-                    ]
-                },
-                "west": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 180
-                },
-                "up": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 270
-                },
-                "down": {
-                    "texture": "#arrow",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        2.5
-                    ],
-                    "rotation": 90
                 }
             }
         }

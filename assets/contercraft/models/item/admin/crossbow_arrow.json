@@ -6,10 +6,10 @@
         "2": "minecraft:block/red_concrete",
         "3": "minecraft:block/red_concrete",
         "5": "minecraft:block/piston_inner",
-        "arrow": "contercraft:entity/firework_rocket",
         "6": "minecraft:block/white_wool",
         "7": "minecraft:block/smooth_stone_slab_side",
-        "8": "minecraft:block/smooth_stone"
+        "8": "minecraft:block/smooth_stone",
+        "arrow": "minecraft:entity/projectiles/arrow"
     },
     "display": {
         "gui": {
