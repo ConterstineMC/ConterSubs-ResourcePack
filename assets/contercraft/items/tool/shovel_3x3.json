@@ -1,6 +1,26 @@
 {
     "model": {
-        "type": "minecraft:model",
-        "model": "contercraft:item/tool/shovel_3x3"
+        "type": "minecraft:range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "contercraft:item/tool/shovel_3x3x2"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "contercraft:item/tool/shovel_3x3x3"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "contercraft:item/tool/shovel_3x3"
+        }
     }
 }
