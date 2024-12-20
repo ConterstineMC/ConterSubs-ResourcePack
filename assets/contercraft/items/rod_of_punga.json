@@ -1,6 +1,14 @@
 {
     "model": {
+      "type": "minecraft:condition",
+      "on_false": {
         "type": "minecraft:model",
         "model": "contercraft:item/rod_of_punga"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "contercraft:item/rod_of_punga_cast"
+      },
+      "property": "minecraft:fishing_rod/cast"
     }
-}
+  }
