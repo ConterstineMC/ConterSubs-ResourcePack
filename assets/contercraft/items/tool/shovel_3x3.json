@@ -9,11 +9,11 @@
                     "type": "minecraft:condition",
                     "on_false": {
                         "type": "minecraft:model",
-                        "model": "contercraft:item/tool/shovel_3x3x2"
+                        "model": "contercraft:item/tool/shovel_3x3/shovel_3x3x2"
                     },
                     "on_true": {
                         "type": "minecraft:model",
-                        "model": "contercraft:item/tool/shovel_3x3x2_broken"
+                        "model": "contercraft:item/tool/shovel_3x3/shovel_3x3x2_broken"
                     },
                     "property": "minecraft:broken"
                 }
@@ -24,11 +24,11 @@
                     "type": "minecraft:condition",
                     "on_false": {
                         "type": "minecraft:model",
-                        "model": "contercraft:item/tool/shovel_3x3x3"
+                        "model": "contercraft:item/tool/shovel_3x3/shovel_3x3x3"
                     },
                     "on_true": {
                         "type": "minecraft:model",
-                        "model": "contercraft:item/tool/shovel_3x3x3_broken"
+                        "model": "contercraft:item/tool/shovel_3x3/shovel_3x3x3_broken"
                     },
                     "property": "minecraft:broken"
                 }
@@ -38,11 +38,11 @@
             "type": "minecraft:condition",
             "on_false": {
                 "type": "minecraft:model",
-                "model": "contercraft:item/tool/shovel_3x3"
+                "model": "contercraft:item/tool/shovel_3x3/shovel_3x3"
             },
             "on_true": {
                 "type": "minecraft:model",
-                "model": "contercraft:item/tool/shovel_3x3_broken"
+                "model": "contercraft:item/tool/shovel_3x3/shovel_3x3_broken"
             },
             "property": "minecraft:broken"
         }
