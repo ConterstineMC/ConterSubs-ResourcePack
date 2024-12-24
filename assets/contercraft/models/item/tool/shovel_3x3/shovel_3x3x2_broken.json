@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "contercraft:item/tool/shovel_3x3/shovel_3x3x2_broken"
+    }
+  }
