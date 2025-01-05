@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:fishing_rod/cast",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "contercraft:item/grappling_hook_cast",
+      "tints": []
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "contercraft:item/grappling_hook"
+    }
+  }
+}
